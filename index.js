@@ -6,6 +6,7 @@ var started = false;
 $("h1").addClass("glow");
 
 
+
 document.querySelector("body").addEventListener("keydown", starting);
 function starting() {
   if(!started) {
@@ -14,6 +15,7 @@ function starting() {
     started = true;
 }
 };
+
 
 $(".btn").on("click", playerGame);
 function playerGame() {
@@ -54,15 +56,14 @@ function checkAnswer(currentLevel) {
                 $("h1").text("Game over, bitch");
                 setTimeout(function () {
                   $("h1").text("Refresh to start over");
-                }, 1000);
+                }, 1500);
                 $(".btn").off("click", playerGame);
                 $("body").addClass("game-over");
                 setTimeout(function () {
                     $("body").removeClass("game-over");
-                    }, 100);
+                  }, 200);
                   var wrong = new Audio("sounds/wrong.mp3");
                   wrong.play();
-
                 }
 }
 

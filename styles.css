@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: #0f0c29;  
+  background: #0f0c29;
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 
@@ -25,7 +25,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 5px solid black;
+  border: 2px solid grey;
   border-radius: 10%;
 }
 
