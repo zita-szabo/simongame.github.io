@@ -1,11 +1,14 @@
 body {
   text-align: center;
-  background-color: #1D1A2F;
+  background: #0f0c29;  
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
 }
 
 #level-title {
   font-family: 'Dancing Script';
-  font-size: 4rem;
+  font-size: 5rem;
   margin:  5%;
   color: #FEF2BF;
 }
@@ -22,7 +25,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 5px solid black;
   border-radius: 10%;
 }
 
