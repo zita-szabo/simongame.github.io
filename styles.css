@@ -17,7 +17,6 @@ body {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -30,8 +29,11 @@ body {
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+  background: #e53935;
+  background: -webkit-linear-gradient(left, #e35d5b, #e53935);
+  background: -o-linear-gradient(left, #e35d5b, #e53935);
+  background: linear-gradient(to right, #e35d5b, #e53935);
+  opacity: 0.5;
 }
 
 .red {
