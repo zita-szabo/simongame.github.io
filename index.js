@@ -10,7 +10,7 @@ $("footer p").slideToggle();
 });
 
 
-document.querySelector("body").addEventListener("keydown", starting);
+document.querySelector("h1").addEventListener("click", starting);
 function starting() {
   if(!started) {
     gamePattern();
