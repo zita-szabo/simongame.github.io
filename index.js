@@ -5,6 +5,9 @@ var buttonColours = ["green", "red", "yellow", "blue"];
 var started = false;
 $("h1").addClass("glow");
 
+$("footer h4").click(function() {
+$("footer p").slideToggle();
+});
 
 
 document.querySelector("body").addEventListener("keydown", starting);
